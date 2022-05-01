@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; background-color: rgba(0, 0, 0, 0.944); color: white;">
+    <h2>Cadastro de dados</h2>
+    <h3><i>Preencha os campos abaixo nos campos correspondentes</i></h3>
+    <div>
+        <img src="usuario.png" alt="fotousuario" width="100 px" height="100 px">
+    </div>
+    <br>
+    <form>
+        <div>
+            <label for="nome">Nome</label>
+            <input type="text" name="nome" required>
+        </div>
+        <br>
+        <div>
+            <label for="email">Email</label>
+            <input type="email" name="email" required>
+        </div>
+        <br>
+        <div>
+            <label for="password">Senha</label>
+            <input type="password" name="password" required>
+        </div>
+        <br>
+        <div>
+            <label for="data">Data de nascimento</label>
+            <input type="date" name="data" required>
+        </div>
+        <br>
+        
+        <fieldset>
+            <legend>Gênero</legend>
+            <div>
+                <input type="radio" id="masculino" name="genero">
+                <label for="masculino">Masculino</label>
+                <input type="radio" id="feminino" name="genero">
+                <label for="feminino">Feminino</label>
+                <input type="radio" id="naodizer" name="genero">
+                <label for="naodizer">Prefiro não dizer</label>
+                <input type="radio" id="outro" name="genero">
+                <label for="outro">Outro</label>
+            </div>
+            <br>
+            <div>
+                <label for="outrogen">Em caso de outro, insira seu gênero:</label>
+                <input type="text" id="outrogen">
+            </div>
+        </fieldset>
+        
+        <br>
+        <fieldset>
+            <legend>Região</legend>
+            <select>
+                <option value="norte">Norte</option>
+                <option value="nordeste">Nordeste</option>
+                <option value="centro">Centro-Oeste</option>
+                <option value="sudeste">Sudeste</option>
+                <option value="sul">Sul</option>
+            </select></p>
+            <table style="font-family: arial, sans-serif; border-collapse: collapse; width: 100%;">
+                <!--Norte-->
+                <tr style="border: 1px solid white; text-align: left; padding: 8px;">
+                    <th style="color: yellow;" >Norte</th>
+                    <td>Amazonas (AM)</td>
+                    <td>Roraima (RR)</td>
+                    <td>Amapá (AP)</td>
+                    <td>Pará (PA)</td>
+                    <td>Tocantins (TO)</td>
+                    <td>Rondônia (RO)</td>
+                    <td>Acre (AC)</td>
+                </tr>
+                <!--Nordeste-->
+                <tr style="border: 1px solid white; text-align: left; padding: 8px;">
+                    <th style="color: yellow;" >Nordeste</th>
+                    <td>Maranhão (MA)</td>
+                    <td>Piauí (PI)</td>
+                    <td>Ceará (CE)</td>
+                    <td>Rio Grande do Norte (RN)</td>
+                    <td>Pernambuco (PE)</td>
+                    <td>Paraíba (PB)</td>
+                    <td>Sergipe (SE)</td>
+                    <td>Alagoas (AL)</td>
+                    <td>Bahia (BA)</td>
+                </tr>
+                <!--Centro-Oeste-->
+                <tr style="border: 1px solid white; text-align: left; padding: 8px;">
+                    <th style="color: yellow;" >Centro-Oeste</th>
+                    <td>Mato Grosso (MT)</td>
+                    <td>Mato Grosso do Sul (MS)</td>
+                    <td>Goiás (GO)</td>
+                </tr>
+                <!--Sudeste-->
+                <tr style="border: 1px solid white; text-align: left; padding: 8px;">
+                    <th style="color: yellow;" >Sudeste</th>
+                    <td>São Paulo (SP)</td>
+                    <td>Rio de Janeiro (RJ)</td>
+                    <td>Espírito Santo (ES)</td>
+                    <td>Minas Gerais (MG)</td>
+                </tr>
+                <!--Sul-->
+                <tr style="border: 1px solid white; text-align: left; padding: 8px;">
+                    <th style="color: yellow;" >Sul</th>
+                    <td>Paraná (PR)</td>
+                    <td>Rio Grande do Sul (RS)</td>
+                    <td>Santa Catarina (SC)</td>
+                </tr>
+            </table>      
+       </fieldset>
+       <br>
+       <div>
+           <label for="estado">Estado</label>
+           <input type="text" name="estado" required>
+           <label for="cidade">Cidade</label>
+           <input type="text" name="cidade" required>
+           <label for="bairro">Bairro</label>
+           <input type="text" name="bairro" required>
+           <label for="rua">Rua</label>
+           <input type="text" name="rua" required>
+           <label for="numero">Nº</label>
+           <input type="number" name="numero" required>
+       </div>
+       <br>
+        
+
+        <div>
+            <label for="limpar">Limpar os campos</label>
+            <input type="reset" name="limpar">
+        </div>
+        <br>
+        <div>
+            <label for="confirmar">Enviar formulário</label>
+            <input type="submit" name="confirmar">
+        </div>
+    </form>
+    <h3>Obrigado por responder</h3>
+    <a href="https://www.alphaedtech.org.br" target="-blank">Venha conferir nosso projeto!!!</a>
+    
+
+
+</body>
+</html>
